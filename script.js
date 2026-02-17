@@ -18,6 +18,8 @@ kiss.classList.add("kiss");
 kiss.innerHTML="💋";
 document.body.appendChild(kiss);
 
+ let kissSound = new Audio("https://assets.mixkit.co/active_storage/sfx/2571/2571-preview.mp3");
+kissSound.play();
 setTimeout(()=>{
 kiss.remove();
 },1500);
