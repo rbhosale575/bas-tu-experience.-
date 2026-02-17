@@ -19,3 +19,31 @@ border:none;
 border-radius:10px;
 cursor:pointer;
 }
+
+body{
+perspective:800px;
+overflow:hidden;
+}
+
+.kiss{
+position:fixed;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%) scale(0.2);
+font-size:40px;
+animation:pop 1.5s linear forwards;
+}
+
+@keyframes pop{
+0%{
+transform:translate(-50%,-50%) scale(0.2);
+opacity:0;
+}
+30%{
+opacity:1;
+}
+100%{
+transform:translate(-50%,-50%) scale(3);
+opacity:0;
+}
+}
