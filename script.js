@@ -4,7 +4,7 @@ document.getElementById("start").style.display="none";
 document.getElementById("main").style.display="block";
 document.getElementById("sound").play();
 
-for(let i=0;i<20;i++){
+for(let i=0;i<40;i++){
 setTimeout(createKiss,i*100);
 }
 
@@ -23,6 +23,6 @@ document.body.appendChild(kiss);
 
 setTimeout(function(){
 kiss.remove();
-},1500);
+},4000);
 
 }
