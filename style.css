@@ -25,14 +25,11 @@ perspective:800px;
 overflow:hidden;
 }
 
-.kiss{
+ .kiss{
 position:fixed;
-top:50%;
-left:50%;
-transform:translate(-50%,-50%) scale(0.2);
 font-size:40px;
-animation:pop 1.5s linear forwards;
-}
+animation:pop 1.5s ease-out forwards;
+ }
 
 @keyframes pop{
 0%{
